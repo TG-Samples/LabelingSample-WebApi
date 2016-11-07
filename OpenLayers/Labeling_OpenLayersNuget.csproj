@@ -65,8 +65,8 @@
       <HintPath>..\packages\MapSuiteDependency-NetTopologySuite.10.0.0\lib\net45\NetTopologySuite.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="PowerCollections, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2573bf8a1bdddcd5, processorArchitecture=MSIL">
@@ -129,19 +129,19 @@
     <Reference Include="System.Net.Http.WebRequest">
     </Reference>
     <Reference Include="ThinkGeo.MapSuite, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ThinkGeo.MapSuite.10.0.305.1\lib\net40\ThinkGeo.MapSuite.dll</HintPath>
+      <HintPath>..\packages\ThinkGeo.MapSuite.10.0.312.2\lib\net40\ThinkGeo.MapSuite.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="ThinkGeo.MapSuite.Layers.ShapeFile, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.ShapeFile.10.0.305.1\lib\net40\ThinkGeo.MapSuite.Layers.ShapeFile.dll</HintPath>
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.ShapeFile.10.0.312.2\lib\net40\ThinkGeo.MapSuite.Layers.ShapeFile.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="ThinkGeo.MapSuite.Styles.ClassBreak, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ThinkGeo.MapSuite.Styles.ClassBreak.10.0.305.1\lib\net40\ThinkGeo.MapSuite.Styles.ClassBreak.dll</HintPath>
+      <HintPath>..\packages\ThinkGeo.MapSuite.Styles.ClassBreak.10.0.312.2\lib\net40\ThinkGeo.MapSuite.Styles.ClassBreak.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="ThinkGeo.MapSuite.WebApi, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MapSuiteWebForWebApi-BareBone.10.0.305.1\lib\net40\ThinkGeo.MapSuite.WebApi.dll</HintPath>
+      <HintPath>..\packages\MapSuiteWebForWebApi-BareBone.10.0.312.2\lib\net40\ThinkGeo.MapSuite.WebApi.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
