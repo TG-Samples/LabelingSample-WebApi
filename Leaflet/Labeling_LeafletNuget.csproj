@@ -57,6 +57,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.SqlServer.Types, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\MapSuiteDependency-MicrosoftSqlServerTypes.10.0.0\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
       <Private>True</Private>
@@ -178,7 +182,9 @@
     <Content Include="Scripts\jquery-1.11.1.min.js" />
     <Content Include="Scripts\leaflet.js" />
     <Content Include="thinkgeo.leaflet.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -255,13 +261,4 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
-  <Import Project="..\packages\MapSuiteDependency-GdalGeoRasterProjection.10.0.0.0\build\net40\MapSuiteDependency-GdalGeoRasterProjection.targets" Condition="Exists('..\packages\MapSuiteDependency-GdalGeoRasterProjection.10.0.0.0\build\net40\MapSuiteDependency-GdalGeoRasterProjection.targets')" />
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('..\packages\MapSuiteDependency-GdalGeoRasterProjection.10.0.0.0\build\net40\MapSuiteDependency-GdalGeoRasterProjection.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MapSuiteDependency-GdalGeoRasterProjection.10.0.0.0\build\net40\MapSuiteDependency-GdalGeoRasterProjection.targets'))" />
-    <Error Condition="!Exists('..\packages\MapSuiteDependency-MicrosoftSqlServerTypes.10.0.0\build\net40\MapSuiteDependency-MicrosoftSqlServerTypes.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MapSuiteDependency-MicrosoftSqlServerTypes.10.0.0\build\net40\MapSuiteDependency-MicrosoftSqlServerTypes.targets'))" />
-  </Target>
-  <Import Project="..\packages\MapSuiteDependency-MicrosoftSqlServerTypes.10.0.0\build\net40\MapSuiteDependency-MicrosoftSqlServerTypes.targets" Condition="Exists('..\packages\MapSuiteDependency-MicrosoftSqlServerTypes.10.0.0\build\net40\MapSuiteDependency-MicrosoftSqlServerTypes.targets')" />
 </Project>
